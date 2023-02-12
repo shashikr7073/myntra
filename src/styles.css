@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+
+    /* width: 100%; */
+    font-family: sans-serif;
+    /* overflow-x: hidden; */
+}
+
+.container {
+    margin-left: 8%;
+    margin-right: 6%;
+}
+
+.common-form {
+    text-align: center;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 300px;
+}
+
+.form-input {
+    height: 35px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    color: black;
+}
+
+.form-button {
+    height: 35px;
+    border: 1px solid black;
+    cursor: pointer;
+}

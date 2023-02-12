@@ -1,0 +1,86 @@
+.nav{
+    height: 90px;
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color:rgba(249, 243, 243, 0.252); */
+    /* position: fixed; */
+    /* overflow: hidden; */
+}
+
+.nav h1 {
+        /* color: lightcoral; */
+        margin: 0;
+        font-size: 40px;
+        margin-left: -9%;
+        margin-right: -2%;
+        margin-top: 41px;
+}
+.myntra-logo{
+    width: 131px;
+    height: 69px;
+}
+
+
+
+.nav ul {
+    display: inline-flex;
+    list-style-type: none;
+    justify-content: left;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-left: 40px;
+    margin-right: -77px;
+}
+
+
+.nav .right {
+    display: flex;
+    float: right;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    /* height: 40px;
+    margin: 20px 30px 0 10px;
+    padding-right: 20px; */
+}
+.nav li{
+    padding-left: 15px;
+    padding-top: 23px;
+}
+.nav li a{
+    text-decoration: none;
+    color: black;
+}
+.nav .nav-search{
+    margin-top: 5px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 12%;
+
+}
+
+.nav .nav-search input{
+    flex: 3;
+    color: rgb(150, 129, 129);
+    border: 1px solid rgb(69, 59, 59);
+    height: 47px;
+    border-right: 33px;
+    padding: 7px;
+    border-radius: 17px
+}
+.nav .nav-search button{
+    color: black;
+    border: 1px solid black;
+    height: 39px;
+    
+    border-left: 0px;
+}
+
